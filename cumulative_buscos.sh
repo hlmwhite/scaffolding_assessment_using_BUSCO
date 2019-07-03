@@ -11,7 +11,8 @@
 
 grep1="$1"
 
-cp /pub28/markw/busco_graphs/hirise_script_test/r_graph.R .
+# this requires editing to wherever the 'r_graph.R' file is present
+cp /PATH/TO/r_graph.R .
 
 for file in *tsv ; do
 
