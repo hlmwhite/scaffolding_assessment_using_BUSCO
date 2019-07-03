@@ -1,6 +1,13 @@
 ### cumulative_buscos.sh
 
-cumulative buscos graph - comparative of buscos in increasing contig/scaffold size (or generally between assemblies)
+cumulative buscos graph - comparative of buscos in increasing contig/scaffold size (or generally between assemblies).
+
+# dependencies:
+- R (command line version)
+- R package ggplot2
+
+# Note before running:
+- Edit line 15 with full path to where 'r_graph.R' can be found before running.
 
 Requires running busco for each desired assembly, then copying all full_table*.tsv files into a single directory.
 run the cumulative_buscos.sh script (the R script r_graph.R must also be present). May also want to rename the '.tsv' 
