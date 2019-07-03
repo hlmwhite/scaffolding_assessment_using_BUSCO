@@ -1,6 +1,6 @@
 ### cumulative_buscos.sh
 
-cumulative buscos graph - comparative of buscos in increasing contig/scaffold size (or generally between assemblies).
+cumulative buscos graph - comparison of buscos in increasing contig/scaffold size (or generally between assemblies).
 
 # dependencies:
 - R (command line version)
