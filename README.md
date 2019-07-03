@@ -9,6 +9,7 @@ cumulative buscos graph - comparative of buscos in increasing contig/scaffold si
 # Note before running:
 - Edit line 15 with full path to where 'r_graph.R' can be found before running.
 
+# How to run:
 Requires running busco for each desired assembly, then copying all full_table*.tsv files into a single directory.
 run the cumulative_buscos.sh script (the R script r_graph.R must also be present). May also want to rename the '.tsv' 
 files with their respective assembly prefixes.
